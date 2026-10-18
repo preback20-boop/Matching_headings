@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#183e36" />
+    <meta name="description" content="Read for the main idea. Three original matching-headings practice rounds with a timer, saved progress, and highlights." />
+    <title>Matching Headings · Reading Practice</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23183e36'/%3E%3Cpath d='M17 17h30v30H17zM17 27h30M27 17v30' fill='none' stroke='%23fff' stroke-width='4'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script type="module" src="./src/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#practice">Skip to practice</a>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Matching Headings home">
+        <span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 5h22v22H5zM5 13h22M13 5v22" /></svg></span>
+        <span>Matching Headings<span class="brand-caption">YOUR READING PRACTICE SPACE</span></span>
+      </a>
+      <span class="header-note"><span class="live-dot"></span>One paragraph. One main idea.</span>
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <div><p class="eyebrow">IELTS-STYLE READING / MATCHING HEADINGS</p><h1 id="page-title">Find the bigger picture.</h1><p class="intro-copy">Read each paragraph. Find its purpose. Choose the heading that fits.</p></div>
+        <div class="intro-aside"><strong id="round-total">3 rounds</strong><span id="question-summary">5 questions each · at your pace</span></div>
+      </section>
+      <nav id="round-nav" class="round-nav" aria-label="Practice rounds"></nav>
+      <p id="storage-warning" class="notice" role="status" hidden>Browser storage is unavailable. You can keep practicing, but progress will not survive a reload.</p>
+      <div id="practice" tabindex="-1"></div>
+      <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+      <footer class="site-footer"><span>Original practice material · not an official IELTS test</span><span id="save-status">Progress saved in this browser</span></footer>
+    </main>
+    <noscript><p class="notice">Enable JavaScript to use the rounds, timer, and text highlighting.</p></noscript>
+  </body>
+</html>

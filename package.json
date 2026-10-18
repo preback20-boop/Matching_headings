@@ -1,0 +1,14 @@
+{
+  "name": "matching-headings",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Three-round IELTS-style matching-headings practice with local progress and text marking.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.js",
+    "test:ui": "node tests/ui.smoke.mjs"
+  }
+}
